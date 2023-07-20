@@ -1,0 +1,43 @@
+rachit sachdeva
+22070123089
+experiment2
+
+CODE1 
+#include<iostream>
+using namespace std;
+int main()
+{
+    bool imagecolor = true;
+    if (imagecolor)
+        cout<<"yes the image is colorful"<<endl;
+    else(imagecolor);
+        cout<<"the is black and white"<<endl;
+}
+
+OUTPUT1
+
+yes the image is colorful
+the is black and white
+
+CODE2 
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int number1=5 ;
+    int number2=9 ;
+    bool comparison;
+    comparison= number1>number2;
+    if(comparison)
+       cout<<"number 1 is greater than number 2";
+    else(comparison);
+    cout<<"number 2 is greater than number 1";
+    return 0;
+    
+
+}
+
+OUTPUT
+
+number 2 is greater than number 1
